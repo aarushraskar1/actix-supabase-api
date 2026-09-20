@@ -1,0 +1,11 @@
+modules = ["rust-stable"]
+[env]
+PORT = "8080"
+RUST_LOG = "actix_supabase_api=info,actix_web=info"
+
+entrypoint = "src/main.rs"
+run = "cargo run"
+
+[nix]
+channel = "stable-25_05"
+packages = ["openssl", "pkg-config"]
