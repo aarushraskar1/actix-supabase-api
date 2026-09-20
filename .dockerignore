@@ -1,0 +1,9 @@
+.git
+.github
+.env
+.env.*
+target
+Dockerfile
+docker-compose.yml
+README.md
+attached_assets
